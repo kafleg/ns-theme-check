@@ -59,7 +59,7 @@ function ns_theme_check_get_standards() {
 	$output = array(
 		'wordpress-theme' => array(
 			'label'       => 'WordPress-Theme',
-			'description' => 'Ruleset for WordPress theme review requirements (Required)',
+			'description' => esc_html__('Ruleset for WordPress theme review requirements (Required)','ns-theme-check'),
 			'default'     => 1,
 		),
 		'wordpress-core' => array(
